@@ -19,6 +19,8 @@ except:
 ws = wb.create_sheet(f"{current_date}")
 
 arr = []
+
+
 # Функцияя получения ответов и занесения их в книгу
 async def get_answer(site):
     try:
